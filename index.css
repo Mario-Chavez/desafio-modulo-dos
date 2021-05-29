@@ -1,9 +1,8 @@
-/* el * es para dar atributos a todas las etiquetas */
 * {
-  box-sizing: border-box; /*aqui le decimos a los elementos en caja que crezcan o se acomoden para adentro*/
+  box-sizing: border-box;
 }
 body {
-  margin: 0; /* quitamos los margenes que trae el navegador*/
+  margin: 0;
   background-image: url(./imagenes/puntitos.png);
 }
 
@@ -196,8 +195,6 @@ body {
     text-align: left;
   }
 }
-/* mañana seguir con tercer seccion de las cmpus */
-
 .tercera-seccion {
   display: flex;
   flex-direction: column;
